@@ -9,9 +9,10 @@ import static org.junit.jupiter.api.Assertions.*;
 public class AddBasketTests {
 
     @Test
-    public void testAddToBasket(int nbArticlesExpected) {
+    public void testAddToBasket() {
         Basket basket =  new Basket();
         int nbArticles = basket.getListArticles().size();
+        int nbArticlesExpected = nbArticles++;
 
         assertEquals(nbArticles, nbArticlesExpected);
     }
