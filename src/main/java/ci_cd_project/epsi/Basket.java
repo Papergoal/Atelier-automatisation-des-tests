@@ -13,13 +13,4 @@ public class Basket {
     public void setListArticles(List<Article> listArticles) {
         this.listArticles = listArticles;
     }
-
-    public int Count(){
-        int nbArticles = 0;
-        for (Article articles : listArticles){
-            nbArticles++;
-        }
-
-        return nbArticles;
-    }
 }
