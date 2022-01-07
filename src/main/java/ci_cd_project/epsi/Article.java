@@ -8,7 +8,7 @@ public class Article {
     private int barcode;
     private double price;
 
-    public Article(String name, int barcode, int price) {
+    public Article(String name, int barcode, double price) {
         this.name = name;
         this.barcode = barcode;
         this.price = price;
@@ -37,4 +37,5 @@ public class Article {
     public void setPrice(double price) {
         this.price = price;
     }
+
 }
