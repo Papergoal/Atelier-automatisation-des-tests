@@ -34,6 +34,6 @@ public class AddBasketTests {
 
         basket.setListArticles(list);
 
-        assertEquals(basket.getListArticles().size(), 2);
+        assertEquals(basket.getListArticles().size(), 1);
     }
 }

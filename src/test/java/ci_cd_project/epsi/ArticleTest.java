@@ -12,16 +12,12 @@ public class ArticleTest {
 
     public Article article = new Article("Lait", 982987272, 1.21);
 
+    /*
+        Vérifier si un article n'est pas vide
+     */
     @Test
     public void articleIsNotEmpty() {
         assertEquals(article.getName(), "Lait");
         assertNotNull(article);
     }
-
-
-
-
-
-
-
 }
