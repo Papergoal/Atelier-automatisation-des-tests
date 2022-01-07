@@ -1,5 +1,7 @@
 package ci_cd_project.epsi;
 
+// Class de l'article
+
 public class Article {
 
     private String name;
